@@ -1,5 +1,15 @@
-def sum(a: int, b: int) -> int:
-    return a + b
+def sum(l_int: list[int]) -> int:
+    res = 0
 
-def concat(s1: str, s2: str) -> str:
-    return s1 + s2
+    for i in l_int:
+        res += i
+
+    return res
+
+def concat(l_str: list[str]) -> str:
+    res = ""
+
+    for s in l_str:
+        res += s
+
+    return res
