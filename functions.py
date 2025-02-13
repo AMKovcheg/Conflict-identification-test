@@ -1,8 +1,8 @@
 def sum2(a: int, b: int) -> int:
-    return a + b
+    return a - b
 
 def concat2(s1: str, s2: str) -> str:
-    return s1 + s2
+    return s1
 
 def sum(l_int: list[int]) -> int:
     res = 0
